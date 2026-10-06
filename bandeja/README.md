@@ -1,6 +1,6 @@
 # Bandeja de entregables
 
-Aplicación de la semana. Vite sirve la interfaz en el puerto **5173**.
+Aplicación del curso, en Vite y TypeScript. La guía está en el [índice](../README.md). Este proyecto es donde se practica cada concepto. El punto de partida es un título.
 
 ```bash
 cd bandeja
@@ -8,10 +8,4 @@ npm ci
 npm run dev
 ```
 
-La misma bandeja con la variante lenta: `http://127.0.0.1:5173/?lenta=1`.
-
-Prueba de humo, con la app parada (el script la arranca):
-
-```bash
-npm run test:e2e
-```
+`npm run build` comprueba los tipos y empaqueta. `npm run test:e2e` lanza el caso de Cypress del título. Los demás casos se añaden en la práctica del cierre.
